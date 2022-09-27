@@ -1,0 +1,89 @@
+*{
+
+    margin: 0;
+}
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+/* defining css style for the header*/
+.bg{
+   z-index: -10;
+    width: 100%;
+    position: fixed;
+    height: 50%;
+    background-image: url('b1.jpg');
+    background-size: cover;
+}
+.header{
+    z-index: -1;
+    padding: 80px;
+    text-align: center;
+
+    background-size: cover;
+    color: white;
+}
+.header h1 {
+    font-size: 40px;
+}
+
+/* css for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+/* set one link to the right side of bar */
+.navbar a.right {
+    float: right;
+}
+/* change color while hovering the mouse */
+.navbar a:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: #ddd;
+    color: black;
+}
+
+/* css for the content of the page */
+.content h2 {
+    color: white;
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.content h3 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 41, 41);
+    transform: translate(0%,-350%);
+}
+.content p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    transform: translate(0,-260%);
+}
+.content{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,41,9,1) 0%, rgba(10,50,118,1) 0%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    top: 55%;
+    height: 70%;
+    width: 100%;
+    
+}
